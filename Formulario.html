@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./formulario.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <title >Cadastro</title>
+</head>
+
+<body>
+    
+      <div class="campo">
+        <H1 class="titulo">Cadastro DEVs</H1>
+        <p class="subtitulo"><strong>Complete com suas informações : </strong></p>
+        <br>
+
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="Nome" required>
+            </div>
+        </fieldset>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+        
+            </div>
+        <div class="campo">
+            <label><strong></label>De qual lado da aplicação você desenvolve ? </strong></label>
+            <label>
+                <input type="radio" name="devweb" id="frontend" checked>FrontEnd
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="backend">BackEnd
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="fullstack">FullStack
+            </label>
+            
+        </div>
+        <div class="campo">
+            <label for="selenioridade"><strong>Selenioridade</strong></label>
+            <select id="selenioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+        </div>
+        <fieldset class="grupo">
+            <div class="checkbox">
+                <label><strong>Selecione as tecnologias que você ultiliza no FrontEnd : </strong></label>
+                <input type="checkbox" name="tecnologia1" id="Html5">
+                <label for="tecnologia1" >HTML5 </label>
+                <input type="checkbox" name="tecnologia2" id="Css3">
+                <label for="tecnologia2">CSS3</label>
+                <input type="checkbox" name="tecnologia3" id="Angular.js">
+                <label for="tecnologia3">Angular.js</label>
+                <input type="checkbox" name="tecnologia4" id="Vue.js">
+                <label for="tecnologia4">Vue.js</label>
+                <input type="checkbox" name="tecnologia5" id="React.js">
+                <label for="tecnologia5">React.js</label>
+
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="checkbox">
+                <label><strong>Selecione as tecnologias que você ultiliza no BackEnd : </strong></label>
+                <input type="checkbox" name="tecnologia1" id="Python">
+                <label for="tecnologia1">Python</label>
+                <input type="checkbox" name="tecnologia2" id="C#">
+                <label for="tecnologia2">C#</label>
+                <input type="checkbox" name="tecnologia3" id="JavaScript">
+                <label for="tecnologia3">JavaScript</label>
+                <input type="checkbox" name="tecnologia4" id="PHP">
+                <label for="tecnologia4">PHP</label>
+                <input type="checkbox" name="tecnologia5" id="Java">
+                <label for="tecnologia5">Java</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="checkbox">
+                <label><strong>Selecione o banco de dados que você ultiliza :</strong> </label>
+                <input type="checkbox" name="tecnologia1" id="MySQL">
+                <label for="tecnologia1">MySQL</label>
+                <input type="checkbox" name="tecnologia2" id="SQL Server">
+                <label for="tecnologia2">SQL Server</label>
+                <input type="checkbox" name="tecnologia3" id="PostgreSQL">
+                <label for="tecnologia3">PostgreSQL</label>
+                <input type="checkbox" name="tecnologia4" id="MongoDB">
+                <label for="tecnologia4">MongoDB</label>
+                <input type="checkbox" name="tecnologia5" id="DB2">
+                <label for="tecnologia5">DB2</label>
+            </div>
+        </fieldset>
+        <div class="campo"><br>
+            <label><strong>Conte um pouco mais da sua experiência :</strong></label>
+            <br>
+            <textarea rows="6" style="width:60%" id="experiencia " name="experiencia "></textarea>
+            
+            
+        </div>
+
+        <button class="botao" type="submit">Concluído </button>
+
+    </form>
+
+</body>
+
+</html>
